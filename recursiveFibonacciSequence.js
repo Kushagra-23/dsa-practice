@@ -7,7 +7,7 @@ function recursiveFibonacci(n) {
   return recursiveFibonacci(n - 1) + recursiveFibonacci(n - 2);
 }
 
-// Big-O - O(2^n)
+// Big-O = O(2^n)
 
 console.log("Result: ", recursiveFibonacci(0));
 console.log("Result: ", recursiveFibonacci(1));
